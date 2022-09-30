@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+
+}
+
+.box {
+    border: 1px solid black;
+    width: 22%;
+    height: 0;
+    padding-bottom: 20%;
+    margin: 10px 20px;
+    ;
+}
+
+.box:last-child {
+    align-self: flex-start;
+}
